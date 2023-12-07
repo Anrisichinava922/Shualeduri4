@@ -10,7 +10,7 @@ const btn = document.querySelector('button')
 const h1 = document.querySelector('h1')
 const h2 = document.querySelector('h2')
 const h3 = document.querySelector('h3')
-const h4 = document.querySelector('h6')
+const h6 = document.querySelector('h6')
 const h5 = document.querySelector('h5')
 const div = document.querySelector('.everyTodo')
 
@@ -52,7 +52,7 @@ h2.addEventListener('click', () =>{
 
 function makeActive(element) {
     h3.classList.remove('blue');
-    h4.classList.remove('blue');
+    h6.classList.remove('blue');
     h5.classList.remove('blue');
     element.classList.add('blue');
 }
@@ -61,7 +61,7 @@ h3.addEventListener('click', () => {
     makeActive(h3);
 });
 
-h4.addEventListener('click', () => {
+h6.addEventListener('click', () => {
     makeActive(h4);
 });
 
