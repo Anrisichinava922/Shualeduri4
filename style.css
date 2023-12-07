@@ -8,7 +8,7 @@
 body{
     background-color: #FAFAFA;
     font-family: 'Josefin Sans';
-
+    overflow-x: hidden;
 }
 .container{
     display: flex;
