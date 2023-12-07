@@ -33,9 +33,9 @@ function showTodo() {
     div.innerHTML = '';
 
     arr.forEach((todo) => {
-        let h4 = document.createElement('h4');
-        h4.innerHTML = todo;
-        div.appendChild(h4);
+        let h6 = document.createElement('h6');
+        h6.innerHTML = todo;
+        div.appendChild(h6);
     });
 }
 darkMode.addEventListener('click', () =>{
@@ -62,7 +62,7 @@ h3.addEventListener('click', () => {
 });
 
 h6.addEventListener('click', () => {
-    makeActive(h4);
+    makeActive(h6);
 });
 
 h5.addEventListener('click', () => {
